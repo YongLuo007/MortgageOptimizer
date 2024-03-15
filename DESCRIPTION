@@ -1,0 +1,19 @@
+Package: MortgageOptimizer
+Title: Mortgage Optimizer
+Version: 0.0.0.9000
+Authors@R: 
+    person("Yong", "Luo", , "yluo1@lakeheadu.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package is for basic mortgage schedule. This is for personal use. You may use
+             at your own risk.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+ data.table,
+ FinancialMath,
+ dplyr
+Suggests:
+ Knitr
